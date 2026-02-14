@@ -1,0 +1,2 @@
+# Obsidian
+Mind_map
