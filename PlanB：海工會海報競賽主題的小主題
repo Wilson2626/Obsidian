@@ -1,0 +1,24 @@
+ #NCHU_CV_Master_Degree 
+
+# 研究主題：柱前湧水與馬蹄形渦流非定常行為之關係
+
+
+# 研究方向&領域
+# 計算流體力學
+## Ansys Fluent LES
+### 1. 馬蹄形渦流拓撲構造
+### 2.渦旋核心與湧水波高變化
+
+
+# 模型架構
+## 1. 基於先前實驗環境&參數
+## 2.自己設定環境 ( * )
+
+
+# 模型驗證 
+## 1. wallYplus
+## 2. Energy Cascade
+## 3. resolved k比例
+
+$參考看看Fluid Mechanics 101$
+
