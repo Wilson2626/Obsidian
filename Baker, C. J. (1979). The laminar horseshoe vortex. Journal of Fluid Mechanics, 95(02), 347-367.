@@ -1,4 +1,3 @@
-Baker, C. J. (1979). The laminar horseshoe vortex. Journal of Fluid Mechanics, 95(02), 347-367.
 #Paper系列 #HorseshoeVortex
 
 
@@ -14,15 +13,13 @@ Baker, C. J. (1979). The laminar horseshoe vortex. Journal of Fluid Mechanics, 9
 2. The boundary layer on the wall upstream of the cylinder is in a region of [adverse pressure gradient] --> three-dimensional separation
 
 3. The separated boundary layer rolls up downstream of
-	the separation line to form a system of vortices. 
+	the separation line to form a system of vortices.  --> This vortex system is swept around the base of the cylinder and assumes a [characteristic shape] which has led to its name - the horseshoe vortex.
 	1. figure 1 (plate 1) [taken by E. P. Sutton and printed in Thwaites (1960)]
-
-4. This vortex system is swept around the base of the cylinder and assumes a [characteristic shape] which has led to its name - the horseshoe vortex.
-
-5. A horseshoe vortex system will [produce high wall shear stresses beneath it]
+	
+4. A horseshoe vortex system will [produce high wall shear stresses beneath it]
 	1. around a bridge pier in the sand bed of a river --> cause the bed to be eroded and a scour hole to form around the base of the obstacle.
 
-6. [Schwind (1962)]
+5. [Schwind (1962)]
 	1. regime 1：type flow only a very weak, slowly rotating vortex is
 		formed
 	2. regime 2：single steady clockwise
@@ -30,9 +27,27 @@ Baker, C. J. (1979). The laminar horseshoe vortex. Journal of Fluid Mechanics, 9
 	3. regime 3：The need for velocity gradients to be continuous implies that a second vortex rotating in the same direction as the main vortex must be present upstream of the small counter rotating vortex
 	4.  regime 4&5：regular oscillatory motion was observed with the main vortex apparently becoming isolated from the rest of the vortex system and moving towards the wedge, then moving back upstream.
 # 2. Dimensional analysis
-1. 
+1. Symbols
+	1. "$x_{v}$" is the distance from the obstacle centre to the centre of the vortex core on the plane of symmetry
+	2. "$D$" is the obstacle diameter
+	3. "$l$" is the obstacle height
+	4. "$U$" is the freestream fluid velocity
+	5. "$\delta^{*}$" is the boundary-layer displacement thickness
+	6. "$H$" is the form parameter at the obstacle position when the obstacle is not in position.
+	7. "$u^{'}_{y}$" is the distribution of turbulence with the oncoming boundary layer
+	8. "$\mu$" is the fluid viscosity
+	9. "$\rho$" is the fluid density
+	10. "$x_{s}$" is the distance from the obstacle centre to the separation line upstream of the obstacle on the plane of symmetry
 # 3. Experimental apparatus
+1.  a) Flow visualization：carried out in a Smoke tunnnel, cylinder was mounted on a plate on the centre-line of the tunnel working section
+	1. The values of the non-dimensional variables quoted for tests in this tunnel should only be regarded as approximate because of [wall interference effectes].
+2.  b) Pressure measurement：It can be seen that the form parameter H is approximately equal to the value for boundary-layer growth on a flat plate in zero pressure gradient.
+3.  c) Measurements of vortex oscillations：DISA hot-wire ‘u’ probes were inserted through a small hole in the wind tunnel wall beneath the horseshoe vortex system, so that the tips of the probes just extended into the flow.
+4.  d) Velocity measurements：A frame-by-frame analysis of the films was then carried out and, by measuring the difference in position of the ends of the smoke filament between successive frames, the flow velocity within nearly all the regions of the vortex system could be determined.
 # 4. Flow visualization results
+## 4.1 Gerneral description of horseshoe vortex flows
+## 4.2 Detailed description of steady horseshoe vortices
+## 4.3. Detailed description of oscillating horseshoe vortex systems
 # 5. Plane of symmetry pressure measurements
 # 6. Variation of the horseshoe vortex position
 # 7. The oscillatory behaviour of horseshoe vortex systems
