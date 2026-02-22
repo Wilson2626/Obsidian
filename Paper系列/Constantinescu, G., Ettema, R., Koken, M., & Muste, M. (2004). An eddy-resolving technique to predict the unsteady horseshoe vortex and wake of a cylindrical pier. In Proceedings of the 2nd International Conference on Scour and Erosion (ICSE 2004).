@@ -1,0 +1,90 @@
+#Paper系列 
+
+### "In this paper we are interested in studying especially the HV system and wake at the start of the scouring process (flat bed conditions)"
+# Abstract
+1. 
+# 1. Introduction
+1. Better understanding of the flow fields will aid scour-prediction accuracy.
+2. Prominent flow features associated with the formation of a scour hole around a cylinder are the ~={purple}necklace-like vortical structure, commonly known as the horseshoe vortex (HV)=~
+3. Regardless of the exact form of the bridge pier, one the main mechanisms ~={red}([[Baker, C. J. (1979). The laminar horseshoe vortex. Journal of Fluid Mechanics, 95(02), 347-367.]], Baker, 1980, Dargahi, 1989, 1990)=~ that ~={purple}drive the formation and future evolution of the scour hole is the HV system.=~
+
+# 2. Need for an eddy-resolving numerical model
+# 3. Numerical solver and grid generation
+1. RANS typically uses dissipative formulations in discretizing the nonlinear terms to make the algorithm robust. 
+2. In LES the dissipative scales of motion are not resolved on the grid, thus the use of non dissipative (central-differences) discretizations leads to numerical instability.
+3. The parallel LES code employed for the present study ~={red}(Mahesh et al., 2004)=~ uses a collocated, ~={purple}finite-volume scheme on unstructured grids=~ with arbitrary elements and a ~={purple}dynamic Smagorinsky subgrid scale model.=~
+4. The typical grid cell dimensions in the HV system region are 2-3 wall units in the bed normal direction and 5-7 wall units in the other directions, close to DNS requirements.
+	1. The first cell off the wall is situated at about 0.5 wall units.
+5. The grid in the region close to the bottom wall is fine enough to resolve the turbulent streaks.
+6. In both simulations the grid and Reynolds number are identical. The same is true for all the boundary conditions with the exception of the inflow conditions.
+	1. Laminar inflow (Figs 1-3)
+		1. a constant profile (no fluctuations) corresponding to a Blasius profile with a momentum thickness of 0.3D was specified in the inlet section.
+	2. Turbulent inflow (Figs 4-6)
+		1. the fully developed flow in a channel of identical section are used to specify the inflow boundary condition
+7. The time step was 0.002D/U. Statistics were computed over approximately 100D/U to insure convergence. The simulation was run on 16 processors (3.06GHz) of a Xeon PC cluster.
+# 4. Results
+##### ~={white}Instantaneous streamlines and out-of-plane vorticity fields in the symmetry plane, $φ = 0^{o}$, and in an inclined plane (polar angle of $φ = 45^{o}$)=~
+
+## 4.1 Horseshoe vortex system
+1. Laminar inflow (Figs 1-3)
+	1. the structure of the HV system varies with the polar angle (compare Figs 1 and 2) the process is ~={purple}quasi-periodical=~ and takes place over the whole length of the necklace primary vortex.
+		![[Constantinescu, Figure 1..png]]
+		![[Constantinescu, Figure 2..png]]
+
+	2. In the $φ = 0^{o}$ plane, this period corresponds to the time between two successive mergings (pairings) between the primary vortex PV1 and the next incoming secondary vortex (SV1 in Figs. 1a-f).
+		1. This scenario corresponds to what is called the ~={purple}regular shedding subsystem=~ of the periodical oscillatory regime.
+
+	3. In Fig. 3 ~={purple}the dominant peak=~ in the spectra of the streamwise and vertical velocity components in the HV region is predicted at St = 0.43.
+		1. The spectrum of the spanwise velocity component in the $φ = 0^{o}$ plane displays only one ~={purple}energetic frequency=~ (St = 0.22).
+		2. Smaller peaks corresponding to the second (St = 0.86) and third (St = 1.30) harmonics are observed.
+			1. These harmonics appear because of nonlinear interactions primarily inside the primary vortex.
+		3. The predicted value of the main Strouhal number seems to agree well with the values measured by ~={red}Wei et al. (2001)=~ in a related study of the flow over square cylinders (St~0.4).
+		4. ~={red}[[Baker, C. J. (1979). The laminar horseshoe vortex. Journal of Fluid Mechanics, 95(02), 347-367.#7. The oscillatory behaviour of horseshoe vortex systems]]=~ observed that for $Re_{D} \sim 5,000$ two main frequencies were present
+			1. a high frequency oscillation (St~0.4)
+			2. a low frequency oscillation (St~0.26).
+
+2. Turbulent inflow (Figs 4-6)
+	1. Fig. 4 shows the presence of a ~={purple}relatively large primary vortex=~ whose size can oscillate considerably. 
+	2. The position of the separation line is also changing in time, for instance it can vary between x/D = -2.5 and x/D = -1.1 in contrast to case 1 where it was practically constant in time (x/D = -1.8). 
+	3. Even though ~={purple}the shedding of secondary vortices from the separation region is still observed (SV1 in Fig. 4a, SV3 and SV4 in Fig. 4f)=~, the periodicity observed in the laminar case is totally lost.
+		1. Sometimes these secondary vortices are destroyed before merging with the primary vortex (Figs. 4a-b)
+		2. at other times two consecutive secondary vortices can merge together as they are advected toward the primary vortex. (Figs. 4c-d）
+			![[Constantinescu, Figure 4..png]]
+	4. The oscillations of the primary vortex in case 2 appear to be stochastic (Figs. 4 and 5).
+		1. The velocity power spectra inside the primary vortex show some clear peaks corresponding to St = 0.1.
+		2. Compared to the spectra obtained in case 1, higher frequency components (up to St = 2.5-3.0) are observed in case 2.
+		3. The velocity ~={purple}spectra inside the HV system appear to be broad=~, confirming the fact that the flow is turbulent.
+			1. Dargahi (1989) mentions that, at $Re_{D}$ = 39,000, the band of energetic frequencies in the horseshoe vortices varies from St = 0.058 to 1.15.
+
+## 4.2 Wake region
+1. Figure 7 is a snapshot of the coherent structures in the detached shear layers visualized using out-of-plane vorticity contours.
+	1. at the free surface (y/D = 1.2) 
+	2. near the bed (y/D = 0.2) 
+	![[Constantinescu, Figure 7..png]]
+
+2. even though the consideration of a fully developed turbulent flow with resolved fluctuations in case 2 ~={purple} affected greatly the structure and intensity of the HV system=~ upstream the cylinder.
+
+3. due to the overall low Reynolds number of the flow past the cylinder, the separation and transition scenario in case 2 is very similar to that predicted for case 1
+	1. meaning that the fluctuations outside the boundary layer that starts forming on the cylinder from the upstream stagnation point are not high enough to force transition of the boundary layer before separation and the associated increase in the separation (polar) angle due to occurrence of the drag crisis.
+	
+4. As for laminar boundary layer separation ~={purple}the polar angle corresponding to separation is practically insensitive to the Reynolds number=~ and/or details of free-stream flow, there are no major differences in the downstream flow between the two cases.
+
+5. The influence of the bottom boundary in both cases is to increase the vorticity levels and range of scales present behind the cylinder. 
+	1. The vorticity patterns at the free surface are very similar to those observed for the flow past infinitely long cylinders.
+	
+6. The velocity power spectra in Fig. 8 (case 1) and Fig. 9 (case 2) clearly show that ~={purple}the Strouhal number associated with the large scale vortex shedding in the wake is St = 0.22-0.22=~, in good agreement with measured values for infinitely long cylinders. 
+	1. The energy associated with the large scale shedding is 2-4 times smaller at y/D = 0.2 compared to the levels recorded away from the bed (y/D > 0.6).
+		![[Constantinescu, Figure 8..png]]
+		![[Constantinescu, Figure 9..png]]
+
+7. A consequence is that the width of the wake is smaller at small distances from the bed, an effect captured in our numerical simulation and in agreement with the findings of Dargahi (1989).
+
+8. In both cases, the shedding of vortex tubes due to the ~={red}Kelvin-Helmholtz instabilities=~ in the shear layers takes place practically over the whole depth of flow.
+	1. as one gets closer to the bed, due to interactions with the ejected vorticity from the bed, the part of the spectrum associated with the shedding inside ~={purple}the detached shear layers=~ becomes broader; e.g., from St = 0.95-1.1 for y/D > 0.5, to 0.95-1.3 at y/D = 0.2 for case 1 (Fig. 6).
+		![[Constantinescu, Figure 6..png]]
+
+	2. In case 2, the spectral content of ~={purple}the detached shear layers=~ away from the bed (y/D>0.5) is practically identical to case 1. However, near the bed (y/D = 0.2) the spectrum is broader (St = 0.7-1.3) compared to St = 0.95-1.3 in case 1.
+
+
+## 4.3 RANS vs. LES for flow past a circular pier
+# 5. Conclusions
