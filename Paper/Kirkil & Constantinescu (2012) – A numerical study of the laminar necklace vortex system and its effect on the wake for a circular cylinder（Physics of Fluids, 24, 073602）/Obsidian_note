@@ -1,0 +1,36 @@
+#Paper系列 
+
+# Abstract
+1. Large eddy simulation(LES) is used to investigate the structure of ~={purple}the laminar horseshoe vortex (HV) system=~ and the dynamics of ~={purple}the necklace vortices=~.
+2. Circular cylinder mounted on the flat bed of an open channel for Reynolds numbers defined with the cylinder diameter, D, smaller than 4460.
+3. The structure of the HV system in the periodic breakaway sub-regime, which is ~={purple}characterized by the formation of three main necklace vortices=~. Over one oscillation cycle of the previously observed ~={purple}breakaway sub-regime=~	
+	1. The ~={purple}corner vortex=~ and the ~={purple}primary vortex=~ merge (amalgamate)
+	2. A ~={purple}developing vortex=~ separates from the incoming laminar boundary layer (BL) to become the new primary vortex.
+4. Results show
+	1. The classical breakaway sub-regime, in which one amalgamation event occurs per oscillation cycle, is present when the nondimensional displacement thickness of the incoming boundary layer(BL) at the location of the cylinder is relatively large $(\delta^{*}/D>0.1)$.
+		1. $\delta^{*}$ : nondimensional displacement thickness
+		2. $D$ : cylinder diameter
+	
+	2. A new type of breakaway sub-regime is present for low values of δ*/D.This sub-regime, which we call the double-breakaway sub-regime, is ~={purple}characterized by the occurrence of two amalgamation events over one full oscillation cycle.=~
+5. relatively shallow flow conditions considered in this study (H/D ∼= 1, H is the channel depth)
+
+# 1. Introduction
+1. The flow past a surface-mounted bluff body is characterized by ~={purple}the formation of U-shaped necklace vortices=~ that wrap around its upstream base, ~={purple}separated shear layers (SSLs) on its sides=~ and ~={purple}a wake extending downstream=~.
+2. The system of coherent necklace vortices forming at ~={purple}the junction between the bluff body and the bottom surface=~ under the influence of adverse pressure gradients is referred as the horseshoe vortex (HV) system.
+
+
+
+
+
+## 1-1. Laminar horseshoe vortex system
+## 1-2. Near-wake region
+## 1-3. Justification of the approach and objectives
+# 2. Numerical model, prior validation for junction flows, and description of test cases
+# 3. Horseshoe vortex system
+## 3-1. case 1
+## 3-2. case 2
+## 3-3. case 3
+## 3-4. case 4
+# 4. Breakup mechanism for the legs of the unsteady necklace vortices
+# 5. Separated shear layers and near-wake region
+# 6. Summary and Conclusions
