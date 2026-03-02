@@ -1,0 +1,136 @@
+#Paper系列 
+
+# Abstract
+1. Large eddy simulation(LES) is used to investigate the structure of ~={purple}the laminar horseshoe vortex (HV) system=~ and the dynamics of ~={purple}the necklace vortices=~.
+2. Circular cylinder mounted on the flat bed of an open channel for Reynolds numbers defined with the cylinder diameter, D, smaller than 4460.
+3. The structure of the HV system in the periodic breakaway sub-regime, which is ~={purple}characterized by the formation of three main necklace vortices=~. Over one oscillation cycle of the previously observed ~={purple}breakaway sub-regime=~	
+	1. The ~={purple}corner vortex=~ and the ~={purple}primary vortex=~ merge (amalgamate)
+	2. A ~={purple}developing vortex=~ separates from the incoming laminar boundary layer (BL) to become the new primary vortex.
+4. Results show
+	1. The classical breakaway sub-regime, in which one amalgamation event occurs per oscillation cycle, is present when the nondimensional displacement thickness of the incoming boundary layer(BL) at the location of the cylinder is relatively large $(\delta^{*}/D>0.1)$.
+		1. $\delta^{*}$ : nondimensional displacement thickness
+		2. $D$ : cylinder diameter
+	
+	2. A new type of breakaway sub-regime is present for low values of δ*/D.This sub-regime, which we call the double-breakaway sub-regime, is ~={purple}characterized by the occurrence of two amalgamation events over one full oscillation cycle.=~
+5. relatively shallow flow conditions considered in this study (H/D ∼= 1, H is the channel depth)
+
+# 1. Introduction
+1. The flow past a surface-mounted bluff body is characterized by ~={purple}the formation of U-shaped necklace vortices=~ that wrap around its upstream base, ~={purple}separated shear layers (SSLs)=~ on its sides and ~={purple}a wake extending downstream=~.
+2. The system of coherent necklace vortices forming at ~={purple}the junction between the bluff body and the bottom surface=~ under the influence of adverse pressure gradients is referred as the horseshoe vortex (HV) system.
+## A. Laminar horseshoe vortex system
+1. The separation of the incoming (upstream) boundary layer and the formation of a ~={purple}separation=~ (stagnation) ~={purple}line =~on the bottom surface around the cylinder are a consequence of the~={purple} adverse pressure gradients =~induced by the surface-mounted cylinder.
+	1. The reorganization of the boundary-layer vorticity downstream of the ~={purple}separation line=~ results in the formation of a system of coherent necklace vortices.
+2. ~={red}The main necklace vortices of the HV system=~ have the same sense of rotation as the vorticity in the upstream boundary layer.
+	1. These vortices interact with the channel bed and induce the formation of additional ~={purple}bottom-attached vortices (BAVs)=~.
+3. Due to the ~={purple}adverse pressure gradients=~, the necklace vortices originating in the separation region stretch around the cylinder and fold around the upstream part of it, very close to the channel bottom.
+	1. The sides of the vortex lines become oriented in the streamwise direction, with the vorticity being of opposite sense in the two sides (~={purple}legs of the necklace vortices=~).
+4. The HV system can be laminar or turbulent.
+	1. Previous studies of laminar junction flows (e.g., see ~={purple}Baker=~,[8] ~={purple}Thomas=~,[9] ~={purple}Seal et al.=~,[10], [11] ~={purple}Simpson=~,[1] ~={purple}Lin et al.=~[12]) have shown that the structure of the HV system and the dynamics of the necklace vortices depend primarily on the ~={purple}cylinder Reynolds number, ReD=~, and ~={purple}the characteristics of the incoming boundary layer=~.
+		1. Laminar vs. Turbulent
+		2. Ratio between ~={purple}the displacement thickness of the incoming boundary layer at the location of the cylinder=~ and the cylinder width or diameter, $\delta^{*}/D$
+	2. The coherence and evolution of the HV system is also affected by ~={purple}the shape of the cylinder=~.
+		1. Circular vs. Rectangular
+		2. Relative bluntness of the upstream part of the cylinder
+		3. Width to height aspect ratio
+5. Most investigations (e.g., see ~={purple}Greco=~,[13] ~={purple}Seal et al.=~[11]) classify the laminar HV system into ~={cyan}five main sub-regimes.=~
+	1. In the ~={red}~={cyan}*steady sub-regime*=~=~, one or several steady necklace vortices are present.
+	2. The number of vortices increases with the value of $Re_{D}$.[8], [14], [15]
+	3. At a sufficiently high Reynolds number, the HV system becomes unsteady.
+		1. The critical value of the $Re$ depends strongly on the characteristics of the incoming boundary layer, e.g., the ratio $\delta^{*}/D$
+			1.  ~={purple}Thomas=~,[9] : the critical Reynolds number was only 1000 and the dependency on δ*/D was much reduced compared to other authors.
+			2. ~={purple}Wei et al.=~[15] : the critical Reynolds number was around 2000.
+6. As the HV system becomes unsteady, the necklace vortices start oscillating back and forth over a small distance, ~={red}but do not interact =~(e.g., do not exchange vorticity).
+	1. The frequency of oscillation increases with $Re_{D}$
+	2. This sub-regime, which is called ~={cyan}*the oscillating sub-regime*=~, was observed for $1700 < Re_{D} < 1900$ in the experiments of Greco[13]
+7. As the Reynolds number is further increased, necklace vortices ~={red}start being shed periodically=~ from the region where the incoming boundary layer separates, regardless of the value of $\delta^{*}/D$.
+	1. The structure of the HV system changes to one in which the ~={purple}primary vortex=~, which is situated at all times closest to the cylinder, breaks away from the formation region.Then, the ~={purple}primary vortex=~ moves toward the obstacle, but a certain point is drawn back toward the formation region. There it encounters a new vortex that was shed from the formation region and eventually merges with it to form ~={purple}the new primary vortex=~.
+		1. This regime was present up to $ReD ∼= 2500$in the experiments of ~={purple}Greco=~[13] and is called the ~={cyan}*amalgamating sub-regime*=~.
+			1. In many experimental investigations, this sub-regime was not observed[12]
+8. A further increase of the Reynolds number induces transition to ~={cyan}*the breakaway sub-regime*=~.
+	1. The structure of the HV system in this sub-regime is ~={red}characterized by the presence of three main co-rotating vortices.=~ The so-called ~={purple}developing vortex=~ is the vortex that is shed from the separation region. The ~={purple}primary vortex=~ is situated in between the developing vortex and the ~={purple}corner vortex=~; and the ~={purple}corner vortex=~ is situated close to the cylinder’s upstream face. 
+	2. As the developing vortex breaks away from the formation region, it becomes the new primary vortex. Meanwhile, ~={red}the primary vortex moves toward the cylinder and eventually merges with the original corner vortex=~, becoming ~={purple}the new corner vortex=~.
+		1. This sub-regime was studied by ~={purple}Seal et al.=~[10], [11] and ~={purple}Lin et al.=~[12] for rectangular cylinders. At a certain point (e.g., $Re_{D} \sim 4750$ in the experiments of ~={purple}Greco=~,[13] $Re_{D} = 4700–6000$ depending on the value of $\delta^{*}/D$ in the experiments of ~={purple}Lin et al.=~[26])
+	3. the coherence of the necklace vortices breaks down. The HV system starts displaying a transitional behavior. This ~={cyan}*transitional sub-regime*=~ covers the transition from the laminar to the turbulent regime which is completed around $Re_{D} = 14000$.[15]
+
+## B Near-wake region
+1. The flow past infinitely long cylinders was studied extensively over recent decades.[16]
+2.  Attached boundary layers on the cylinder are laminar at separation and the Reynolds number is high enough (ReD >1000), the ~={purple}Kelvin-Helmholtz instabilities=~ in the ~={purple}SSLs=~ grow into eddies (vortex tubes) that are shed at a frequency that is strongly dependent on ReD. This frequency is independent of the one associated with the shedding of roller vortices (~={purple}von Karman vortex street=~) in the wake of the bluff body. In
+	1. In the case of an infinitely long cylinder, the axes of the vortex tubes are close to parallel to the axis of the cylinder. The flow transitions in the downstream part of the SSLs. The wake flow is turbulent.
+	2. In the case of finite-length cylinders, end disturbances in the spanwise (relative to the cylinder) direction (e.g., the presence of a free surface or of a solid wall at one end of the cylinder) induce strong disturbances along the axes of the vortex tubes and trigger what is generally called ~={purple}oblique shedding=~.[16]
+3. Experiments[4], [17] have shown that t~={purple}he limited vertical extent of the water depth=~ in the channel can play an important role in the development of the turbulent wake downstream of the surface-mounted cylinder.
+	1. As the ratio between ~={purple}the width (diameter) of the obstacle, D=~, and ~={purple}the flow depth, H=~, increases, the effects of the bottom friction on the development and vortical structure of the wake flow become more important.
+4. Chen and Jirka4, 18 related the presence of absolute (or global) and convective instabilities (see Huerre and Monkewitz19) to the formation or absence of large-scale rollers in the near wake of a cylinder placed in a shallow channel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 1-3. Justification of the approach and objectives
+# 2. Numerical model, prior validation for junction flows, and description of test cases
+# 3. Horseshoe vortex system
+## 3-1. case 1 ~={cyan}*(Steady sub-regime)*=~
+1. The HV system contained two clockwise-rotating vortices corresponding to the primary and secondary necklace vortex and a small counter-clockwise rotating bottom-attached vortex.
+## 3-2. case 2 ~={cyan}*(Oscillating sub-regime)*=~
+1. No shedding of necklace vortices occurs in the region where the incoming boundary layer separates.
+	1. The period of one full oscillation cycle is T = 9.5D/U.
+		1. $St_{D} = fD/U = 0.105$
+		2. $St_{\delta} = f\delta/U = 0.172$
+	2. The two primary vortices exhibit a stable limit cycle behavior.
+	3. The axes of BAV1 and BAV2 are topologically unstable foci points.
+		![[G. Kirkil and G. Constantinescu(2012)FIG.3.png]]
+
+2. In the φ = 0◦ plane, the maximum amplitude of the oscillations of the cores of PV1 and PV2 with respect to their mean position is close to 0.04D
+		![[G. Kirkil and G. Constantinescu(2012)FIG.4.png]]
+		
+	1. The positions of the axes of PV1 and PV2 in Fig. 4(a) correspond to the peak vorticity within the core of these vortices.
+	2. Figure 4(b) shows the variation of the horizontal convection velocity of PV1 and PV2 over one full cycle. 
+		1. The peak absolute values of $u_{c}$ are around 0.03U.
+	3. Figure 4(a) shows that the times when PV1 (t = 0T) and PV2 (t = T/8) are situated the closest to the cylinder are not the same. A time lag of about T/8
+		1. the positions of the axes of the two vortices with respect to their mean positions
+		2. the position of the cylinder over the whole cycle.	
+3. The same lag of T/8 is observed between the time when the circulation in one of the primary vortices reaches a minimum and the time the circulation in the other primary vortex reaches a maximum value (Fig. 5).		
+	![[G. Kirkil and G. Constantinescu(2012)FIG.5.png]]
+	1. the temporal variations of the circulations of PV1 and PV2 are nearly T/2 out of phase. The time-averaged ratio between the absolute values of the circulation of PV1 and PV2 is close to 2.5 (Fig. 5).		
+
+4.  The velocity spectra at points situated within the cores of PV1, PV2, and SV1 show that the oscillations are regular and all the energy is concentrated at the fundamental frequency (StD = 0.105, Stδ = 0.172).
+	![[G. Kirkil and G. Constantinescu(2012)FIG.6.png]]
+		1. in Figs. 6(a) and 6(b) for a point situated inside PV1. At points situated between the cores of the primary vortices and the channel bottom, the velocity spectra remain discrete but contain a significant amount of energy at the first and the second harmonics of the main frequency.
+		2. Due to the strong nonlinear interactions with the bottom boundary layer, the first harmonic (St = 0.21) is as energetic as the fundamental frequency at some points situated beneath the core of PV1.
+
+## 3-3. case 3 ~={cyan}*(Breakaway sub-regime)*=~
+![[G. Kirkil and G. Constantinescu(2012)FIG.7.png]]
+1. Three main co-rotating vortices are observed in the symmetry plane (φ = 0◦) in case 3. These vortices are denoted CV1, PV1, and DV1 in Fig. 7(a) 
+	1. CV1 : the corner vortex (closest to the cylinder)
+	2. PV1 : the primary vortex
+	3. DV1 : the developing vortex (farthest from the cylinder)
+2. A full unsteady cycle includes one periodic merging (amalgamation) event between the PV and CV vortices to form the new corner vortex, and periodic shedding of a new necklace vortex (DV) from the formation region.
+3. CV1 wraps around the cylinder, the distance between its axis and the cylinder is nearly constant for $|\phi| < 90^{o}$
+4. the core of PV1 distances itself significantly from the cylinder as the polar angle increases.
+5. The circulation of DV1 decays rapidly with the polar angle and the vortex diffuses for x/D > 0.
+
+
+
+
+
+
+
+
+
+
+## 3-4. case 4 ~={cyan}*(Breakaway sub-regime)*=~
+1. the value of $\delta^{*}/D$ was decreased to 0.056 to investigate the effect of the incoming boundary layer thickness on the structure of the laminar HV system.
+
+
+# 4. Breakup mechanism for the legs of the unsteady necklace vortices
+# 5. Separated shear layers and near-wake region
+# 6. Summary and Conclusions
